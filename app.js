@@ -39,3 +39,5 @@ let Hadi   = new Employee(1006,"Hadi Ahmad", "Finance","Mid-Senior");
 for (let i =0 ;i < employee.length; i++){
     employee[i].render();
 }
+
+
