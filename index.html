@@ -11,7 +11,9 @@
 </head>
 <body>
     <header>
+        <strong>
         <h1>Employee Management System</h1>
+        </strong>
         <a href="./accounting.html">Accounting page</a>
     </header>
    <br>
@@ -20,39 +22,40 @@
    <br>
 
    <main>
-    <form id="Employee">
+    <section id="employeeCard">
         <fieldset>
-          <legend>Employee</legend>
-          <label for="">Full name:</label>
-          <input
-            type="text"
-            id="FullName"
-            name="FullName"
-            placeholder="please enter your full name"
-          />
-          <br />
-          <label for="Department">Select your Department:</label>
-          <select name="Department" id="Department">
-            <option value="Administration">Administration</option>
-            <option value="Marketing">Marketing</option>
-            <option value="Development">Development</option>
-            <option value="Finance">Finance</option>
-          </select>
-          <br />
-          <label for="Level">Select your Level:</label>
-          <select name="Level" id="Level">
-            <option value="Junior">Junior</option>
-            <option value="Mid-Senior">Mid-Senior</option>
-            <option value="Senior">Senior</option>
-          </select>
-          <br />
-          <label for="image">Image url:</label>
-          <input type="url" id="image" name="image" 
-          placeholder="please enter your image url"/>
-          <br />
-          <input type="submit" name="submit" id="submit" value="submit" />
-        </fieldset>
-      </form>
+    <form id="card">
+        <strong>
+        <label for="fullName">Full Name</label>
+        <br>
+        <input type="text" id="fullName" name="fullName">
+        <br>
+        <label for="department">Department</label>
+        <br>
+            <select name="department" id="department">
+                <option value="administration">Administration</option>
+                <option value="marketing">Marketing</option>
+                <option value="development">Development</option>
+                <option value="finance">Finance</option>
+            </select>
+            <br>
+        <label for="level">Level</label>
+        <br>
+            <select name="level" id="level">
+                <option value="junior">Junior</option>
+                <option value="midsenior">Mid-Senior</option>
+                <option value="senior">Senior</option>
+            </select>
+            <br>
+        <label for="image">Image</label><br>
+        <input type="file" id="image" name="image">
+        <br>
+        <input id="submit" type="submit">
+    </strong>
+    </form>
+    </fieldset>
+    </section>
+    <section id="empCard"></section>
 
    </main>
    <script src="./app.js"></script>
