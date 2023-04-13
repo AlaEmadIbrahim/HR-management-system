@@ -1,72 +1,68 @@
-header{
-    width: 100%;
-		height: 200px;
-        background-color: teal;
-		text-align: center;
-        padding-top: 50px;
-        font-size: 25px;
-        font-family: cursive;
-        color: white;	
-        font-family:Audiowide;	 
-        
+header {
+  width: 100%;
+  height: 200px;
+  background-color: teal;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  font-family: Audiowide;
 }
 
-footer{
-    width: 100%;
-		height: 200px;
-        background-color: teal;
-		text-align: center;
-        padding-top: 50px;
-        font-size: 25px;
-        font-family: cursive;
-        color: white;
-        font-family:Audiowide;	
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: teal;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  font-family: Audiowide;
 }
 #empCard {
-    padding: 2rem 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(30rem, 1fr));
-    text-align: start;
-        border: .2rem solid rgb(7, 88, 121);
+  padding: 2rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30rem, 1fr));
+  text-align: start;
+  border: 0.2rem solid rgb(7, 88, 121);
 }
 
 #empCard img {
-    width: 150px;
-    height: 180px;
-    margin: 1rem 0rem;
+  width: 150px;
+  height: 180px;
+  margin: 1rem 0rem;
 }
 
 #empCard div {
-    margin-bottom: 3rem;
-
+  margin-bottom: 3rem;
 }
-    #empCard h3 {
-        font-size: 1.4rem;
-        font-weight: 400;
-        font-family:Audiowide;
-
-
-    }
+#empCard h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: Audiowide;
+}
 h1 {
-    padding-top: 50px;
-    font-size: 25px;
-    font-family:Audiowide;
-    color: white;		 
- }
-
- a{
-    text-decoration: none;
-    color: white(0, 195, 255);
-    font-size: larger;
-    font-family:Audiowide;
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: Audiowide;
+  color: white;
 }
 
-#submit{
-    color: aliceblue;
-    font-weight: bold;
-    padding: 5px 20px 5px 20px;
-    background-color: teal;
+a {
+  text-decoration: none;
+  color: white(0, 195, 255);
+  font-size: larger;
+  font-family: Audiowide;
 }
-body{
-    background-color: #B9EDDD;
+
+#submit {
+  color: aliceblue;
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  background-color: teal;
+}
+body {
+  background-color: #b9eddd;
 }

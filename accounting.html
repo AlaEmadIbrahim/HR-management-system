@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="accounting.css" />
     <title>Document</title>
 </head>
+
 <body>
+
     <body>
         <header>
             <h1>Employee Management System</h1>
             <a href="./index.html">Home page</a>
         </header>
-   <br>
-   <br>
-   <br>
-   <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-       <main>
+        <main>
+            <table id="tableMain">
+                <tr>
+                    <th>Department Name</th>
+                    <th>Number of employees</th>
+                    <th>Total Salary</th>
+                    <th>Average salary of the department</th>
+                </tr>
+            </table>
+        </main>
+        <br>
+        </main>
+        <br>
+        <br>
+        <br>
+        <!-- table footer which will have the total number of employees, the average salary for all departments and the total salary for all departments -->
+        <Footer id="footerAcc">
+            <table id="tableFooter">
+                <tr>
+                    <th>Total number of employees</th>
+                    <th>otal salary for all departments</th>
+                    <th>Average salary for all departments</th>
+                </tr>
+            </table>
 
-       </main>
-   <br>
-   <br>
-   <br>
-   <br>
+            <br>
+            <section id="footerSection">
+            <p>Follow us on Instagram >>
+                <a href="https://www.instagram.com/human_resource_mgt/?hl=en">HR-management</a>
+            </p>
+            <p>Follow us on Facebook >>
+                <a href="https://www.facebook.com/human.resource.management/">HR-management</a>
+            </p>
+            <span>&copy; <em id="date"></em>HR-management2023</span>
+        </section>
+        </Footer>
+        <script src="accounting.js"></script>
+    </body>
 
-       <Footer>
-        <p>Follow us on Instagram >>
-            <a href="https://www.instagram.com/human_resource_mgt/?hl=en">HR-management</a>
-        </p>
-        <p>Follow us on Facebook >>
-            <a href="https://www.facebook.com/human.resource.management/">HR-management</a>
-        </p>
-        <span>&copy; <em id="date"></em>HR-management2023</span>
-       </Footer>
- 
-</body>
 </html>
