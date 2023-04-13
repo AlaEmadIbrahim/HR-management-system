@@ -1,0 +1,23 @@
+table , th ,tr ,td{
+    border: .1rem solid;
+}
+
+#tableFooter{
+    font-family: Audiowide;
+    text-align: center;
+    font-size:large;
+}
+
+#tableMain{
+    font-family: Audiowide;
+    text-align: center;
+    color: rgb(7, 7, 82);
+}
+
+#footerAcc{
+    background-color:teal ;
+}
+
+#footerSection{
+    background-color:teal ;
+}
