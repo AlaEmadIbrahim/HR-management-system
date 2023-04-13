@@ -1,7 +1,7 @@
 "use strict";
 
-let tableOne = document.getElementById("tableMain");
-let tableTwo = document.getElementById("tableFooter");
+let tableMain = document.getElementById("tableMain");
+let tableFooter = document.getElementById("tableFooter");
 let employeeCard = localStorage.getItem("employeeCard");
 let emp = JSON.parse(employeeCard);
 
@@ -31,7 +31,7 @@ function getAccountData(department) {
     });
 
     let dep = [department, numDepEmp, totalDepSal, avgDepSal];
-    let all = [numEmp, totalSal, avgSal];
+    let all = [totalSal];
 
     for (let i = 0; i < 1; i++) {
         let row = document.createElement("tr");
@@ -40,16 +40,18 @@ function getAccountData(department) {
             depCell.textContent = dep[j];
             row.appendChild(depCell);
         }
-        tableOne.appendChild(row);
-    }
-    for (let i = 0; i < 1; i++) {
-        let row = document.createElement("tr");
-        for (let j = 0; j < 3; j++) {
+        tableMain.appendChild(row);
+        
+        for (let i = 0; i < 1; i++) {
+        // let row = document.createElement("tr");
+        for (let j = 0; j < 5; j++) {
             let cell = document.createElement("td");
             cell.textContent = all[j];
             row.appendChild(cell);
         }
 
-        tableTwo.appendChild(row);
+        tableMain.appendChild(row);
     }
+    }
+    
 }
